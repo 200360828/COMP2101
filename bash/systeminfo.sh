@@ -154,4 +154,4 @@ if [ "$rundefaultmode" = "yes" -o "$swboy" = "yes" ]; then
 echo "$softwaredetails"
 fi
 
-#END OF MID TERM
+echo END OF MID TERM
