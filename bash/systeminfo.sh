@@ -97,23 +97,16 @@ softwaredetails="$(apt list --installed)"
 # Outputs
 
 #  Host name/Domain Name Details
-hostnamedetails="
-Hostname: $Systemname
-Domain Name: $domainname
-"
-
+hostnamedetails="Hostname: $Systemname
+Domain Name: $domainname"
 # IP Details
 ipaddressdetails="IP Address: $ipaddress"
-
 # OS Details
 osdetails="Operating System: $OSname"
-
 # OS Version
 osversion="Operating System Version: $OSversion"
-
 # CPU Information
 cpudetails="CPU Information: $CPUdetails"
-
 # RAM Details
 ramdetails="RAM Information: $RAMinfo"
 # Disc Space Details
