@@ -101,13 +101,13 @@
 	discspace="$(df -h)"
 	printerinformation="$(lpstat -p)"
 	softwaredetails="$(apt list --installed)"
-
+..........................................................................................
 	# Outputs
-
 
 	#  Host name/Domain Name Details
 	hostnamedetails="Hostname: $Systemname
 	Domain Name: $domainname"
+
 	# IP Details
 	ipaddressdetails="IP Address: $ipaddress"
 	# OS Details
@@ -126,7 +126,7 @@
 	# Software Details
 	softwaredetails="Installed Software List: $softwaredetails"
 
-
+.......................................................................................................
 	# OUTPUT
 
 
@@ -159,4 +159,4 @@
 	fi
 
 
-	echo END OF MID TERM
+	echo END OF SYSTEM INFORMATION
